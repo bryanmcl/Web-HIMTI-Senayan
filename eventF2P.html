@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>HIMTI Senayan</title>
+  <link href="eventDetails.css" rel="stylesheet" type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" href="assets/favicon.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-blue-600">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img class="himti-navbar-logo" src="assets/HIMTI-PUTIH-min 2.png"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutUs.html">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Events
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="eventF2P.html">Free-2-Play Fridays</a></li>
+              <li><a class="dropdown-item" href="eventDetails.html">Seminary</a></li>
+              <li><a class="dropdown-item" href="eventDetails.html">Competitive Programming</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#footer">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- content -->
+  <div class="content">
+    <!-- ini mau pake photo as background jg and poster ny nanti mau pindah ke gallery. some event ga pake timetable like this one.-->
+    <!-- poster + deskripsi event -->
+    <div class="container-xxl py-6 my-5">
+      <div class="container">
+        <div class="row g-5 align-items-center posdesc">
+
+          <!-- poster -->
+          <div class="col-8 wow zoomIn poster" data-wow-delay="0.1s"
+            style="visibility: visible; animation-delay: 0.1s; animation-name: zoomIn;">
+            <img class="img-fluid" src="assets/F2Pposter.png">
+          </div>
+
+          <!-- deskripsi -->
+          <div class="col-4 wow fadeInUp p-1 my-0 descPoster" data-wow-delay="0.1s"
+            style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+            <!-- judul event -->
+            <div class="judul text-center pb-5">
+              HIMTI<br>FREE-2-PLAY<br>FRIDAYS
+            </div>
+
+            <!-- list desc -->
+            <div class="row g-3 mb-4">
+              <!-- Date -->
+              <div class="col-12 d-flex justify-content-between listDesc">
+                <div class="sublist d-flex flex-row">
+                  <p><i class="bi bi-calendar-event mx-2 fs-4"></i></p>
+                  <p class="fs-4 fw-bold me-3">DATE:</p>
+                </div>
+                <div class="text-end">
+                  <p class="fs-4">Every Last Friday</p>
+                </div>
+              </div>
+
+              <!-- TIME -->
+              <div class="col-12 d-flex  justify-content-between listDesc">
+                <div class="sublist d-flex flex-row">
+                  <p><i class="bi bi-clock mx-2 fs-4"></i></p>
+                  <p class="fs-4 fw-bold me-3">TIME:</p>
+                </div>
+                <div class="text-end">
+                  <p class="fs-4">20.00 - Finish</p>
+                </div>
+              </div>
+
+              <!-- LOCATION -->
+              <div class="col-12 d-flex  justify-content-between listDesc">
+                <div class="sublist d-flex flex-row">
+                  <p><i class="bi bi-geo mx-2 fs-4"></i></p>
+                  <p class="fs-4 fw-bold me-3">LOCATION:</p>
+                </div>
+                <div class="text-end">
+                  <p class="fs-4">Discord Server</p>
+                </div>
+              </div>
+
+
+              <!-- end -->
+            </div>
+
+            <div class="custom_button">
+              <a class="btn btn-outline-light rounded-4 py-2 px-5" href="#">Next Event TBA</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- event description -->
+    <section id="event-desc" class="section-bg my-5">
+      <div class="container">
+
+        <div class="section-title aos-init aos-animate" data-aos="fade-up">
+          <h2 class="mb-4">Event Description</h2>
+          <p class="fs-4 descEvent">Free 2 Play Friday is a game night event held by HIMTI Senayan on the 
+            last Friday of each month where students can play various party games together via Discord. 
+            The purpose of this game night is to forget all university works for a moment and have a moment 
+            to relax and have fun together.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- event guest -->
+    <section id="guest" class="guest my-5">
+      <div class="container">
+
+        <div class="section-title aos-init aos-animate mb-4" data-aos="fade-up">
+          <h2>Hosts</h2>
+        </div>
+
+        <div class="row">
+          <!--  pengajar 1 -->
+          <div class="col-lg-4 col-md-6 my-2">
+            <div class="member aos-init aos-animate d-flex flex-row" data-aos="zoom-in">
+              <div class="pic"><img src="assets/pp.jpg" class="img-fluid rounded-circle" alt=""></div>
+              <div class="my-auto mx-4 d-flex flex-column">
+                <h4>Michael Christopher</h4>
+                <span>General Event Manager</span>
+              </div>
+            </div>
+          </div>
+
+          <!--  pengajar 1 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="member aos-init aos-animate d-flex flex-row" data-aos="zoom-in">
+              <div class="pic"><img src="assets/pp.jpg" class="img-fluid rounded-circle" alt=""></div>
+              <div class="my-auto mx-4 d-flex flex-column">
+                <h4>Raphael Reynaldi</h4>
+                <span>Host For Free2Play</span>
+              </div>
+            </div>
+          </div>
+
+          <!--  pengajar 3 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="member aos-init aos-animate d-flex flex-row" data-aos="zoom-in">
+              <div class="pic"><img src="assets/pp.jpg" class="img-fluid rounded-circle" alt=""></div>
+              <div class="my-auto mx-4 d-flex flex-column">
+                <h4>Kimber Lie</h4>
+                <span>Human Capital at XYZ company </span>
+                <span>Pengajar 3</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <footer class="mx-auto">
+      <div class="details d-flex justify-content-between
+        flex-column flex-md-row mb-4">
+        <div class="links d-flex w-100
+        flex-column flex-sm-row">
+          <div class="explore text-white 
+            fw-bold fs-3 mb-md-0 mb-4">
+            <div class="title">Explore</div>
+            <div class="pages d-inline text-white fw-normal fs-5">
+              <a class="page text-white" href="index.html">Home</a><br>
+              <a class="page text-white" href="aboutUs.html">About Us</a><br>
+              <a class="page text-white" href="event.html">Events</a>
+            </div>
+
+          </div>
+
+          <div class="followUs text-white 
+            fw-bold fs-3 mb-md-0 mb-4">
+            <div class="title">Follow Us</div>
+            <div>
+              <a class="logo" target="_blank" href="https://www.instagram.com/himti.sny/"><img
+                  src="assets/instagram.png" alt=""></a>
+              <a class="logo" target="_blank" href="https://www.youtube.com/user/HimtiBinus"><img
+                  src="assets/youtube.png" alt=""></a>
+              <a class="logo" target="_blank" href="mailto:himti.senayan@gmail.com"><img src="assets/email.png"
+                  alt=""></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="himti-logo d-flex
+            justify-content-md-end justify-content-sm-center">
+          <img class="logo-himti" src="assets/logo.png">
+        </div>
+      </div>
+      <div class="credits d-inline-block d-sm-flex
+        text-white fw-semibold fs-5">
+        <div class="copyright">
+          © Copyright HIMTI Binus University
+        </div>
+        <p>@ Senayan</p>
+      </div>
+    </footer>
+</body>
+
+</html>
